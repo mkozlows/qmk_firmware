@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_TRNS, A(KC_LEFT), C(S(KC_TAB)), KC_PGDN, C(KC_TAB), KC_TRNS,                  KC_LEFT,  KC_DOWN, KC_UP, KC_RIGHT, KC_LBRC, KC_RBRC,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, C(S(KC_PSCREEN)), RGB_HUI, KC_TRNS, A(C(KC_LEFT)), A(C(KC_RIGHT)), KC_TRNS, A(KC_LEFT), A(KC_RIGHT),
+     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, C(S(KC_PSCREEN)), RGB_HUI, KC_TRNS, A(C(KC_LEFT)), A(C(KC_RIGHT)), A(KC_LEFT), A(KC_RIGHT), KC_TRNS,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     KC_TRNS, _______, _______,                   KC_TRNS, _______, KC_EQL
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
